@@ -85,5 +85,5 @@ stages:
             displayName: 'Azure App Service Deploy: website'
             inputs:
               azureSubscription: 'Azure Pass - Sponsorship'
-              appName: '$(WebAppName)'
+              appName: 'cz8357az400-sc'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
